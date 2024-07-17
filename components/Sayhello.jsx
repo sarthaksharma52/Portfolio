@@ -10,7 +10,7 @@ const Sayhello = () => {
     <div className="hrsayhello"><hr/></div>
     </div>
 
-    <div className="text-gradient1">
+    <div className="text-gradient-hello">
     why don't you come say hi@sarthak.dec04@gmail.com
     </div>
 

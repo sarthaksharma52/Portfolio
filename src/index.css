@@ -109,3 +109,39 @@ a:hover{
     margin-top: 12vh;
 }
 
+.text-gradient-hello {
+    background: linear-gradient(to right, #666, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4rem; 
+    font-weight: bold; 
+}
+
+/* about section */
+
+.aboutmain{
+    height: 100vh;
+}
+
+.section1about{
+    display: flex;
+    flex-direction: row;
+    margin: 2vw;
+}
+.about{
+    color: #454545;
+}
+.hrabout{
+    width: 81vw;
+    margin: -5px;
+    margin-left: 5px;
+
+}
+
+.text-gradient-about {
+    background: linear-gradient(to right, #666, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem; 
+    font-weight: bold; 
+}
