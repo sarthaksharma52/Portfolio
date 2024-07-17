@@ -3,6 +3,7 @@ import React from 'react'
 const Home = () => {
   return (
     <>
+    <div className="home">
     <div className="hr">
     <hr />
     <div className="sectin1">
@@ -15,6 +16,7 @@ const Home = () => {
     <br />
     
     <p className='text-gradient1'>I'm Sarthak Sharma, a mern stack developer specialized in creating crisp and catchy</p>
+    </div>
     </div>
     </>
   )

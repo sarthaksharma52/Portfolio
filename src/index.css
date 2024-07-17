@@ -43,7 +43,9 @@ a:hover{
 /* home page section */
 
 
-
+.home{
+    height: 100vh;
+}
 .hr{
     margin-left: 3vw;
     margin-right: 2vw;
@@ -64,3 +66,46 @@ a:hover{
     font-size: 5rem; 
     font-weight: bold; 
 }
+
+
+
+/* say hello */
+
+.sayHello{
+    height: 100vh;
+}
+
+.section1sayhello{
+    display: flex;
+    flex-direction: row;
+    margin: 2vw;
+}
+.hello{
+    color: #454545;
+}
+.hrsayhello{
+    width: 81vw;
+    margin: -5px;
+    margin-left: 5px;
+
+}
+
+.buttonsayhello button{
+    background-color: transparent;
+    border: 2px solid #454545;
+    color: #454545;
+    width: 20vw;
+    height: 7vh;
+}
+
+.sayhellobtn:hover{
+    background-color: white;
+    color: #000;
+}
+
+.buttonsayhello{
+    display: flex;
+    justify-content: center;
+    margin-top: 12vh;
+}
+
