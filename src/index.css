@@ -1,0 +1,66 @@
+body {
+    background-color: #000;
+    background-image:
+        linear-gradient(to right, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+    background-size: 10vw;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+/* nav-bar sction */
+.nav_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px;
+    
+}
+a{
+    text-decoration: none;
+    color: #454545;
+}
+a:hover{
+    color: white;
+}
+.nav_bar .nav_items{
+    margin: 25px;
+}
+
+.left{
+    font-size: 1.2rem;
+}
+
+.linkedin{
+    color: #06EF6F;
+}
+.linkedin:hover{
+    color: #06EF6F;
+    border-bottom:1px solid #06EF6F;
+}
+
+
+/* home page section */
+
+
+
+.hr{
+    margin-left: 3vw;
+    margin-right: 2vw;
+}
+
+.text-gradient{
+    background: linear-gradient(to right, #666, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    
+}
+
+.text-gradient1 {
+    background: linear-gradient(to right, #666, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 5rem; 
+    font-weight: bold; 
+}
