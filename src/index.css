@@ -72,7 +72,7 @@ a:hover{
 /* say hello */
 
 .sayHello{
-    height: 100vh;
+    height: 80vh;
 }
 
 .section1sayhello{
@@ -144,4 +144,28 @@ a:hover{
     -webkit-text-fill-color: transparent;
     font-size: 2.5rem; 
     font-weight: bold; 
+}
+
+
+/* footer section */
+
+.footer_main{
+    padding: 10vh;
+    height: 40vh;
+    background-color: #000;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px;
+}
+
+.footer_items{
+    margin: 25px;
+}
+.footer_items_icon{
+    margin: 20px;
 }
