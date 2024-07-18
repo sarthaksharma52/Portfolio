@@ -336,3 +336,34 @@ body {
 .projectrep{
     /* height: 100vh; */
 }
+
+
+
+/* contact section */
+
+
+
+.contact1{
+    height: 100vh;
+}
+.sayHello9{
+    margin-top: 12vh;
+    font-weight: 700;
+}
+.text-gradient-contact {
+    background: linear-gradient(to right, #666, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 6rem; 
+    font-weight: 550; 
+}
+.text-gradient-contact-body-9 {
+    background: linear-gradient(to right, #666, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3.5rem; 
+    font-weight: 450; 
+    padding-top: 15vh;
+    padding-left: 12vw;
+    padding-right: 12vw;
+}
