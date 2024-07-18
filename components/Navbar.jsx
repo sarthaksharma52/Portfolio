@@ -2,7 +2,7 @@ import React from 'react'
 
 const navbar = () => {
   return (
-    <div>
+    <>
       <div className="container nav_bar">
       <div className="left nav_items">Sarthak Sharma</div>
       <div className="right">
@@ -12,7 +12,8 @@ const navbar = () => {
         <a href="https://www.linkedin.com/in/sarthak-sharma-778b28257/" className='nav_items linkedin'target='_blank'>linkedin</a>
         </div>
     </div>
-    </div>
+    
+    </>
   )
 }
 

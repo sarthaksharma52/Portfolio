@@ -5,7 +5,6 @@ const Home = () => {
     <>
     <div className="home">
     <div className="hr">
-    <hr />
     <div className="sectin1">
     <p className="text-gradient">
     Oh, Hello there! 
