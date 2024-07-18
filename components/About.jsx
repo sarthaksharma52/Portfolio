@@ -1,5 +1,6 @@
 import React from 'react';
-import image from '../public/assets/sarthakimg.jpg';
+import {Link} from 'react-router-dom'
+// import image from '../public/assets/';
 
 const About = () => {
   return (
@@ -7,7 +8,7 @@ const About = () => {
     <div className="aboutmain">
       <div 
     className="section1about">
-    <p className='about'>.about</p>
+    <p className='about1'>.about</p>
     <div className="hrabout"><hr/></div>
     </div>
     <div className="about-box">
@@ -21,7 +22,8 @@ const About = () => {
     </div>
 
     <div className="buttonsayhello">
-        <button className='sayhellobtn'>about  me</button>
+    <Link to="/About" className='btn'><button className='sayhellobtn'>about me</button></Link>
+        
     </div>
         {/* <img src="{image}" alt="image" /> */}
     </div>

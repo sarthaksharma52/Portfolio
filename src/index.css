@@ -135,7 +135,7 @@ body {
 /* about section */
 
 .aboutmain{
-    height: 100vh;
+    height: 80vh;
 }
 
 .section1about{
@@ -143,7 +143,7 @@ body {
     flex-direction: row;
     margin: 2vw;
 }
-.about{
+.about1{
     color: #454545;
 }
 .hrabout{
@@ -168,6 +168,8 @@ body {
     padding: 10vh;
     height: 40vh;
     background-color: #000;
+    /* position: fixed;
+    bottom: 0; */
 }
 
 .footer{
@@ -200,6 +202,20 @@ body {
     height: 100vh;
 }
 
+.text-gradient-aboutnew {
+    background: linear-gradient(to right, #666, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4rem; 
+    font-weight: 400; 
+}
+.aboutContent{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin-left: 10vw;
+}
+
 
 
 
@@ -216,4 +232,102 @@ body {
 /* contact section */
 .contact{
     height: 100vh;
+}
+
+
+
+
+/* about1 section */
+.about{
+    padding-top: 7vh;
+    height: 100vh;
+}
+.aboutHeading{
+    font-size: 7rem;
+}
+.aboutContent{
+    font-size: 4rem;
+}
+.aboutsection{
+    height: 90vh;
+}
+.section1about{
+    display: flex;
+    flex-direction: row;
+    margin: 2vw;
+    /* height: 80vh; */
+}
+.aboutHR{
+    color: #A8A8A8;
+    
+}
+.hrabout{
+    width: 79vw;
+    margin: -5px;
+    margin-left: 5px;
+
+}
+
+.container.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .item {
+    flex: 1 1 30%; /* Each item takes up 30% of the container width */
+    max-width: 30%;
+    box-sizing: border-box;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .img {
+    width: 100%;
+    height: auto;
+    max-width: 100px; /* Adjust based on your design */
+  }
+  
+  h3 {
+    margin-top: 0.5rem;
+  }
+  
+
+
+
+  /* project section */
+
+.project{
+    margin-top: 9vh;
+}
+.text-gradient-projectheading {
+    background: linear-gradient(to right, #666, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 6rem; 
+    font-weight: 400; 
+}
+.text-gradient-projectcontent {
+    background: linear-gradient(to right, #666, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4rem; 
+    font-weight: 400; 
+    margin-top: 15vh;
+    margin-left: 9vw;
+    padding-bottom: 16vh;
+}
+.projectrep{
+    /* height: 100vh; */
 }

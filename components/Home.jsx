@@ -1,4 +1,5 @@
 import React from 'react'
+import Typed from 'typed.js'
 
 const Home = () => {
   return (
@@ -15,6 +16,9 @@ const Home = () => {
     <br />
     
     <p className='text-gradient1'>I'm Sarthak Sharma, a mern stack developer specialized in creating crisp and catchy</p>
+    <p ref={typedRef}>
+      
+    </p>
     </div>
     </div>
     </>
