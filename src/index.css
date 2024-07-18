@@ -81,6 +81,13 @@ body {
     font-size: 5rem; 
     font-weight: 700; 
 }
+.text-gradient2 {
+    background: linear-gradient(to right, white, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 5rem; 
+    font-weight: 700; 
+}
 
 
 
