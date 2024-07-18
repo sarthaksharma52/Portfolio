@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import image from '../public/assets/sarthakimg.jpg';
 
 const About = () => {
   return (
@@ -22,7 +23,7 @@ const About = () => {
     <div className="buttonsayhello">
         <button className='sayhellobtn'>about  me</button>
     </div>
-
+        {/* <img src="{image}" alt="image" /> */}
     </div>
     </>
   )
