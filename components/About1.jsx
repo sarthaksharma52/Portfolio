@@ -1,7 +1,7 @@
 import React from "react";
 import Sayhello from "../components/Sayhello";
 import Skills from '../components/Skills';
-import About from "./About";
+import AboutImgText from "./AboutImgText";
 
 
 const About1 = () => {
@@ -16,7 +16,7 @@ const About1 = () => {
         </div>
         
       </div>
-      <About/>
+      <AboutImgText/>
 
       <Skills/>
       <Sayhello />

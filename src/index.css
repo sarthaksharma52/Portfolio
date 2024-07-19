@@ -352,7 +352,7 @@ body {
 
 
 .contact1{
-    height: 100vh;
+    height: 85vh;
 }
 .sayHello9{
     margin-top: 12vh;
@@ -422,10 +422,6 @@ body {
 
 }
 
-.contactmebtn{
-
-}
-
 .buttoncontactme button{
     background-color: transparent;
     border: 2px solid #A8A8A8;
@@ -445,3 +441,64 @@ body {
     margin-top: 12vh;
     padding-bottom: -5vh;
 }
+
+
+/* contact section */
+
+/* styles.css */
+
+.contact-box {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 20px;
+    /* background-color: #111; */
+    color: #fff;
+  }
+  
+  .contact-box form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 49px;
+    max-width: 600px;
+  }
+  
+  .contact-box label {
+    margin: 10px 0 5px;
+  }
+  
+  .contact-box input,
+  .contact-box textarea {
+    
+    height: 10vh;
+    width: 51vw;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: #1A1A1A;
+    opacity: 0.7;
+    border: 1px solid #333;
+    color: #fff;
+    /* border-radius: 5px; */
+  }
+  .contact-box textarea {
+    height: 16rem;
+  }
+  
+  .contact-box button {
+    padding: 10px 20px;
+    background: #fff;
+    border: none;
+    color: #111;
+    cursor: pointer;
+    height: 10vh;
+    font-size: 16px;
+    width: 51vw;
+    /* border-radius: 5px; */
+  }
+  
+  .contact-box button:hover {
+    background: #ddd;
+  }
+  

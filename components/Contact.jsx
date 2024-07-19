@@ -1,5 +1,6 @@
 import React from 'react';
 import SayHello from '../components/Sayhello';
+import ContactForm from './ContactForm';
 
 const Contact = () => {
   return (
@@ -12,7 +13,8 @@ const Contact = () => {
           Let's collaborate. Feel free to drop me a line about your project or follow me on social networks
           </div>
       </div>
-      <SayHello/>
+      <ContactForm/>
+      
     </>
   )
 }
