@@ -10,17 +10,23 @@ const Skills = () => {
             <hr />
           </div>
         </div>
-    <div className="container skills"></div>
+    <div className="container skills">
           <div className="items" >
-      {skills.map((data)=>(
-      <>
-            <div className="item" key={data.id}>
-              <img className="img" src={`/assets/${data.imageSrc}`} alt=""/>
-              <h3>{data.title}</h3>
-            </div>
-          </>
+            {skills.map((data)=>(
+              <>
+                <div className="item" key={data.id}>
+                  <div className={data.id}
+                  data-aos="flip-left"
+                  >
+                  <img className="img" src={`/assets/${data.imageSrc}`} alt=""/>
+                  <h3>{data.title}</h3>
+                  </div>
+                </div>
+              </>
           ))}
           </div>
+          
+    </div>
     </>
   )
 }

@@ -18,8 +18,8 @@
     "description": "This is a project made with Nodejs express ejs and mongodb.",
     "liveLink": "/",
     "sourceCodeLink": "https://www.github.com",
-    "cardColor": "#FFFFFF",
-    "textColor": "#1F00FF" 
+    "cardColor": "#e2e3e3",
+    "textColor": "#2ba0ff" 
   },
   {
     "id": 3,

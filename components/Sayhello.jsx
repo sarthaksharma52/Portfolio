@@ -4,7 +4,10 @@ import { Link } from 'react-router-dom';
 const Sayhello = () => {
   return (
     <>
-    <div className="sayHello">
+    <div className="sayHello"
+      data-aos="fade-up"
+      data-aos-duration="1900"
+    >
     <div 
     className="section1sayhello">
     <p className='hello'>.say hello</p>

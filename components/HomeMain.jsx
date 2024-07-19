@@ -1,9 +1,10 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
 import Home from '../components/Home'
 import Sayhello from '../components/Sayhello'
 import About from '../components/About'
-import Footer from '../components/Footer'
+import ProjectsImg from './ProjectsImg'
+
+
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
       <div className="container">
       <Home/>
       <About/>
+      <ProjectsImg/>
       <Sayhello/>
       </div>
     </div>
