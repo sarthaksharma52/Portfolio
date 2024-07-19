@@ -128,7 +128,8 @@ body {
 .buttonsayhello{
     display: flex;
     justify-content: center;
-    margin-top: 12vh;
+    /* margin-top: 12vh; */
+    padding-bottom: -5vh;
 }
 
 .text-gradient-hello {
@@ -142,22 +143,29 @@ body {
 /* about section */
 
 .aboutmain{
-    height: 80vh;
+    /* height: 80vh; */
 }
 
 .section1about{
     display: flex;
     flex-direction: row;
     margin: 2vw;
+    display: block;
 }
 .about1{
+
     color: #454545;
 }
 .hrabout{
-    width: 81vw;
+    /* width: 41vw; */
     margin: -5px;
     margin-left: 5px;
+    display: block;
 
+}
+.hrabout hr{
+    width: 48vw;
+    padding-top: -12vh;
 }
 
 .text-gradient-about {
@@ -314,7 +322,7 @@ body {
   /* project section */
 
 .project{
-    margin-top: 9vh;
+    padding-top: 20vh;
 }
 .text-gradient-projectheading {
     background: linear-gradient(to right, #666, #fff);
@@ -375,3 +383,65 @@ body {
 /* .data1:hover{
     data-aos="flip-left";
 } */
+
+
+/* Add this CSS to your stylesheet (e.g., styles.css) */
+
+.about-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /* padding-bottom: 42vh; */
+    height: 100vh;
+    /* background-color: #111;  */
+    color: #fff; /* Adjust as needed */
+  }
+  
+  .text-gradient-about {
+    flex: 1;
+    font-size: 2.2em;
+    line-height: 1.5;
+    max-width: 50%; /* Adjust as needed */
+    margin-right: 20px; /* Adjust as needed */
+  }
+  
+  .about-image img {
+    max-width: 500px;
+    height: 40rem;
+    margin-bottom: 35vh;
+    border-radius: 10px; /* Adjust as needed */
+    /* padding-bottom: 15vh; */
+  }
+  
+  .hrskill{
+    width: 81vw;
+    margin: -5px;
+    margin-left: 5px;
+    display: block;
+
+}
+
+.contactmebtn{
+
+}
+
+.buttoncontactme button{
+    background-color: transparent;
+    border: 2px solid #A8A8A8;
+    color: #A8A8A8;
+    width: 20vw;
+    height: 7vh;
+}
+
+.contactmebtn:hover{
+    background-color: white;
+    color: #000;
+}
+
+.buttoncontactme{
+    display: flex;
+    justify-content: center;
+    margin-top: 12vh;
+    padding-bottom: -5vh;
+}

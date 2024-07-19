@@ -6,7 +6,7 @@ const Skills = () => {
     <>
     <div className="section1about">
           <p className="aboutHR">.stack</p>
-          <div className="hrabout">
+          <div className="hrskill">
             <hr />
           </div>
         </div>

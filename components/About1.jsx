@@ -1,6 +1,7 @@
 import React from "react";
 import Sayhello from "../components/Sayhello";
 import Skills from '../components/Skills';
+import About from "./About";
 
 
 const About1 = () => {
@@ -15,6 +16,7 @@ const About1 = () => {
         </div>
         
       </div>
+      <About/>
 
       <Skills/>
       <Sayhello />

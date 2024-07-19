@@ -18,8 +18,8 @@ const Sayhello = () => {
     why don't you come say hi@sarthak.dec04@gmail.com
     </div>
 
-    <div className="buttonsayhello">
-    <Link to="/Contact" className='nav_items c1'> <button className='sayhellobtn'>contact me</button></Link>
+    <div className="buttoncontactme">
+    <Link to="/Contact" className='nav_items c1'> <button className='contactmebtn'>contact me</button></Link>
        
     </div>
     </div>
