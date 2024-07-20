@@ -42,3 +42,6 @@
   .card:hover .card-arrow {
     transform: rotate(-45deg); /* Rotate the arrow 45 degrees upwards */
   }
+  .card-link{
+    text-decoration: none;
+  }
