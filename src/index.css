@@ -73,6 +73,14 @@ body {
     font-weight: 700;
     
 }
+.text-gradient0{
+    color: #666;
+    font-weight: 70;
+    /* padding-left: 0.4rem; */ 
+}
+.Country{
+    padding-left: 0.4rem; 
+}
 
 .text-gradient1 {
     background: linear-gradient(to right, #666, #fff);
@@ -141,10 +149,6 @@ body {
 }
 
 /* about section */
-
-.aboutmain{
-    /* height: 80vh; */
-}
 
 .section1about{
     display: flex;
@@ -500,5 +504,51 @@ body {
   
   .contact-box button:hover {
     background: #ddd;
+  }
+  
+
+
+
+  /* effect */
+
+  .section1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  .location {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+  }
+  
+  .blink-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #0f0;
+    border-radius: 50%;
+    margin-left: 10px;
+    animation: blink 1s infinite;
+    transform: translateY(-6px);
+  }
+  
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  .time {
+    margin-left: 10px;
+    font-size: 15px;
+  }
+  .temp {
+    margin-left: 10px;
+    font-size: 15px;
   }
   
