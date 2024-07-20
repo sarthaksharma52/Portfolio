@@ -24,7 +24,7 @@ const ContactForm = () => {
     setError(null);
 
     try {
-      const response = await axios.post('/api/contact', formData);
+      const response = await axios.post('http://localhost:5001/api/contact', formData); // Update URL
       if (response.status === 200) {
         alert('Message sent successfully!');
         setFormData({ name: '', email: '', message: '' });
