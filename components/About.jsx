@@ -11,7 +11,7 @@ const About = () => {
     <AboutImgText/>
 
     <div className="buttonsayhello">
-    <Link to="/About " className='btn'><button className='sayhellobtn'>about me</button></Link>
+    <Link to="/About" className='btn'><button className='sayhellobtn'>about me</button></Link>
         
     </div>
         
