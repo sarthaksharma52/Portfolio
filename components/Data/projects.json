@@ -17,7 +17,7 @@
     "imageSrc": "../public/Images 2/proimg/BlogingApp.png",
     "description": "This is a project made with Nodejs express ejs and mongodb.",
     "liveLink": "/",
-    "sourceCodeLink": "https://www.github.com",
+    "sourceCodeLink": "https://github.com/sarthaksharma52/BlogingApp",
     "cardColor": "#e2e3e3",
     "textColor": "#2ba0ff" 
   },
@@ -27,7 +27,7 @@
     "title": "NoteTaking App",
     "imageSrc": "../public/Images 2/proimg/NoteTaking.png",
     "description": "This is a project made with nodejs, express and ejs.",
-    "liveLink": "notetakingapp-6sjw.onrender.com",
+    "liveLink": "https://notetakingapp-6sjw.onrender.com",
     "sourceCodeLink": "https://github.com/sarthaksharma52/NoteTakingAPP",
     "cardColor": "#B2FFCB",
     "textColor": "#000000" 
@@ -49,7 +49,7 @@
     "title": "RealTime Tracke",
     "imageSrc": "../public/Images 2/proimg/TrackingApp.png",
     "description": "This is a project made with nodejs , WebSocket and EJS.",
-    "liveLink": "tracker-q69x.onrender.com",
+    "liveLink": "https://tracker-q69x.onrender.com",
     "sourceCodeLink": "https://github.com/sarthaksharma52/Tracker",
     "cardColor": "#42A5F5",
     "textColor": "white" 
