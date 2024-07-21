@@ -37,10 +37,10 @@
   .card-image {
     width: 100%;
     height: auto;
-    max-height: 400px; /* Adjust the height if needed */
+    max-height: 400px;
   }
   .card:hover .card-arrow {
-    transform: rotate(-45deg); /* Rotate the arrow 45 degrees upwards */
+    transform: rotate(-45deg);
   }
   .card-link{
     text-decoration: none;
