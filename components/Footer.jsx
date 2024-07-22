@@ -1,5 +1,5 @@
 import React from 'react';
-import pdf from '../components/pdf/Sarthak-resume .pdf';
+import pdf from './pdf/Sarthak-resume .pdf';
 import instagramIcon from '../public/assets/instagram.png';
 import githubIcon from '../public/assets/github.png';
 import linkedinIcon from '../public/assets/linkedin.png';
@@ -15,7 +15,7 @@ const Footer = () => {
             <Link to="" className='footer_items'>projects</Link>
             <Link to="" className='footer_items'>about</Link>
             <Link to="" className='footer_items'>contact</Link>
-            <Link to={pdf} download="Sarthak_Sharma_Resume.pdf" className='footer_items'>resume</Link>
+            <a href={pdf}  className='footer_items'>resume</a>
           </div>
           <div className="right">
             <Link to="https://www.linkedin.com/in/sarthak-sharma-778b28257/" target='_blank' className='footer_items_icon'>
